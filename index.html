@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>面向对象 Tab</title>
+    <link rel="stylesheet" href="./styles/tab.css">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+
+    <main>
+        <!-- tab component -->
+        <div class="tabsbox" id="tab">
+            <!-- tab label container -->
+            <nav class="tabnavbar">
+                <!-- display tab labels in ul -->
+                <ul>
+                    <li class="liactive">
+                        <span>Test Tab 1</span>
+                        <span class="iconfont icon-guanbi"></span>
+                    </li>
+                    <li>
+                        <span>Test Tab 2</span>
+                        <span class="iconfont icon-guanbi"></span>
+                    </li>
+                </ul>
+                <!-- button to add a new tab -->
+                <div class="tabadd">
+                    <span>+</span>
+                </div>
+            </nav>
+
+            <!-- tab content container -->
+            <div class="tabscon"> 
+                <section class="conactive">Test Tab 1</section>
+                <section>Test Tab 2</section>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/tab.js"></script>
+</body>
+
+</html>
